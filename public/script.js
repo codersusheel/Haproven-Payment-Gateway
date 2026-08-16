@@ -25,7 +25,7 @@ const amount = 101;
 // यहाँ केवल TEST KEY ID डालनी है.
 // Secret नहीं डालना है.
 
-const RAZORPAY_KEY_ID = "rzp_test_TQZTDZ8mXaZ8wq";
+const RAZORPAY_KEY_ID = "your_test_key_id";
 
 
 

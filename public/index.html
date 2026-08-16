@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Razorpay Test Payment</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css">
+
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+</head>
+
+<body>
+
+    <main class="payment-container">
+
+        <div class="payment-card">
+
+            <h1>Test Payment</h1>
+
+            <p class="subtitle">
+                Razorpay Test Mode
+            </p>
+
+            <div class="amount-box">
+
+                <span>Amount</span>
+
+                <strong>₹101</strong>
+
+            </div>
+
+            <button
+                id="pay-button"
+                type="button">
+
+                Pay ₹101
+
+            </button>
+
+            <p id="payment-status"></p>
+
+        </div>
+
+
+        <section
+            id="qr-section"
+            style="display:none;">
+
+            <h2>
+                Scan & Pay
+            </h2>
+
+            <p id="qr-status">
+                QR code will appear here.
+            </p>
+
+            <img
+                id="qr-image"
+                src=""
+                alt="Payment QR Code"
+                width="300"
+                style="display:none;">
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

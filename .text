@@ -1,0 +1,21 @@
+razorpay-payment/
+│
+├── public/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
+├── server.js
+├── package.json
+└── .env
+
+
+
+
+cmd
+
+cd /d D:\GitHub\main\pay
+
+node server.js
+
+Server running at http://localhost:3000
